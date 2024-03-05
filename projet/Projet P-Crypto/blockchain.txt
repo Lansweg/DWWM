@@ -1,0 +1,116 @@
+1 - Qu'est ce que BlockChain ? 
+
+Blockchain est un mécanisme de Base de données avancé qui permet un partage transparent des information au 
+sein d'un réseau d'entreprises.
+Une base de données BlockChain stocke les données dans des blocs qui sont reliés entre eux dans une chaine 
+
+En clair, Une BlockChain est un registre, une grande base de donnée qui a la particularité d'être partagée 
+simultanémnt avec tous ses utilisateurs, tout également détenteurs de ce registre, et qui ont également tous 
+la capacité d'y inscrire des données, celon des règles spécifiques fixée par un protocole informatique très 
+bien sécurisé grâce a la cryptographie
+
+
+
+2 - Comment ça marche ?
+En pratique, une chaîne de blocs (blockchain) est une base de données qui contient l’historique de tous les 
+échanges effectués entre ses utilisateurs depuis sa création. 
+La Banque de France en explique les principales caractéristiques :
+
+- L’identification de chaque partie s’effectue par un procédé cryptographique
+
+- La transaction est envoyée à un réseau (ou « nœud » de stockage) d’ordinateurs situés dans le monde entier
+
+- Chaque « nœud » héberge une copie de la base de données dans lequel est inscrit l’historique des transactions 
+effectuées. Toutes les parties prenantes peuvent y accéder simultanément
+
+- Le système de sécurisation repose sur un mécanisme de consensus de tous les « nœuds » à chaque ajout d’informations.
+ Les données sont déchiffrées et authentifiées par des « centres de données » ou « mineurs ». La transaction ainsi 
+validée est ajoutée dans la base sous forme d’un bloc de données chiffrées (c’est le « block » dans blockchain)
+
+- La décentralisation de la gestion de la sécurité empêche la falsification des transactions. Chaque nouveau bloc 
+ajouté à la chaîne est lié au précédent et une copie est transmise à tous les « nœuds » du réseau. 
+L’intégration est chronologique, indélébile et infalsifiable. 
+
+https://www.economie.gouv.fr/files/files/2019/infog-block-chain.jpg
+https://www.economie.gouv.fr/files/files/2019/infog-block-chain.jpg
+
+
+3 - Quels sont ses avantages ?
+
+L’utilisation de la chaîne de blocs (blockchain) comporte de nombreux avantages, parmi lesquels :
+
+- La rapidité des transactions grâce au fait que la validation d’un bloc ne prend que quelques secondes à quelques minutes.
+
+- La sécurité du système, qui est assurée par le fait que la validation est effectuée par un ensemble 
+d’utilisateurs différents, qui ne se connaissent pas. Cela permet de se prémunir du risque de malveillance 
+ou de détournement, puisque les nœuds surveillent le système et se contrôlent mutuellement
+
+- Les gains de productivité et d’efficacité générés grâce au fait que la blockchain confie l’organisation 
+des échanges à un protocole informatique. Cela réduit mécaniquement les coûts de transaction ou de centralisation 
+existant dans les systèmes traditionnels (frais financiers, frais de contrôle ou de certification, 
+recours à des intermédiaires qui se rémunèrent pour leur service ; automatisation de certaines prestations, etc.).
+
+
+
+
+4 - Quelles sont les applications possibles ?
+
+La chaîne de blocs (blockchain) représente une innovation majeure qui est notamment utilisée dans le secteur bancaire. 
+En effet, historiquement, la technologie "blockchain" s’est développée pour soutenir des transactions réalisées 
+via les cryptomonnaies/crypto-actifs (dont les bitcoins qui sont la forme la plus connue) et qui ont comme 
+caractéristique principale de ne pas dépendre d’un organisme centralisateur (comme une banque centrale) et d’être internationales.
+
+Mais son usage ne se limite pas aux cryptomonnaies. De nombreux domaines et secteurs d’activités, 
+marchands ou non marchands, publics ou privés, utilisent déjà la chaîne de blocs (blockchain) ou prévoient 
+de le faire dans les années à venir. Le rapport [PDF ; 3.7 Mo] de la mission d’information commune de 
+l’Assemblée nationale sur les usages des chaînes de blocs et autres technologies de certification de registre, 
+détaille quelques-uns des champs d’utilisation de la chaîne de blocs (blockchain) :   
+
+- Dans le secteur banque, la technologie ouvre la possibilité de valider des transactions sans l’intermédiaire 
+d’une chambre de compensation, ce qui devrait permettre de certifier des opérations dans des délais beaucoup plus courts. 
+La chaîne de blocs (blockchain) peut aussi favoriser le partage d’informations entre acteurs concurrents d’une place 
+financière dans le respect du secret de leurs données commerciales et, ce faisant, faciliter la gestion de 
+structures ou d’instruments communs en réduisant les coûts de contact et les frais d’administration.
+
+- Dans le secteur de l’assurance, l’apport de la chaîne de blocs (blockchain) tient par exemple à l’automatisation 
+des procédures de remboursement et à l'allégement de certaines formalités à la charge des sociétés comme de leurs clients, 
+sous réserve que les hypothèses et les conditions d’indemnisation et de préjudice soient clairement établies.
+
+- Dans le secteur de la logistique, la chaîne de blocs (blockchain) présente deux intérêts :
+ - assurer une traçabilité des produits, ainsi que la mémoire des différentes interventions sur une chaîne de production et de distribution
+ - alléger les formalités et créer les conditions d’une coopération entre les acteurs d’une filière, notamment en 
+matière d’échange d’informations. Cet usage pourrait trouver aussi une application dans le secteur agro-alimentaire 
+pour la traçabilité des aliments, particulièrement intéressante en cas de crise sanitaire.
+
+- Dans le secteur énergétique, en autorisant l’échange de services et de valeurs en dehors d’une instance de 
+gestion centrale, la chaîne de blocs (blockchain) crée potentiellement les conditions de la mise en place – à une plus ou moins grande 
+échelle suivant les capacités techniques – de réseaux locaux de production, d’échange et de revente d’énergie pour équilibrer l’offre 
+et la demande à tout moment, ce qui est une contrainte forte des réseaux d’électricité en particulier
+
+Mais de nombreux aux secteurs sont potentiellement concernés par l’utilisation de cette technologie : santé, immobilier, luxe, aéronautique, etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
