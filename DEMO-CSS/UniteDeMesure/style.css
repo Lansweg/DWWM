@@ -1,0 +1,44 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+} */
+
+/* div {
+    border: 1px solid blue;
+    width: calc(25%);
+    font-size: 1.2rem;
+    width: 100vw;
+} */
+/* a {
+    font-size: 1.5rem;
+} */
+
+
+/* ---------------------------------------------------------------------------- */
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+}
+
+div {
+    font-size: 30px;
+    width: 50vw;
+    height: 100vh;
+    background: blue;
+
+}
+p {
+    border: 1px solid blue;
+    font-size: 2rem;
+
+}
+
+a {
+    font-size: 1rem;
+}

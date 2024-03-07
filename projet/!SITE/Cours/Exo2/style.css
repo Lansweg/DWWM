@@ -1,0 +1,153 @@
+*{
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #efe784;
+    margin: 0px 480px;
+}
+
+
+div.header{
+    border: 1px solid red;
+    background: green;
+    background-image: url(./img/logoheader.png), url(./img/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    padding: 0px 0px 0px 0px ;
+    
+}
+
+
+div.header p.theader {
+    display: inline-block;
+    padding-left: 400px;
+    margin: 0;
+    width: 960px;
+    padding: 0px 100px 0px 350px;
+    padding-top: 210px;
+    margin-bottom: 20px;
+    letter-spacing: 20px;
+    font-size: 1.5rem;
+    color: #efe784;
+}
+
+
+
+div.contenair1{
+    border: 1px solid red;
+    background: #3e3838;
+    padding: 10px 150px 30px 150px;
+}
+
+
+h2.titre1{
+    text-align: center;
+    color: #efe784;
+    border-top: 1px solid #efe784;
+    border-bottom: 1px solid #efe784;
+    margin: 40px 0px 25px 0px;
+}
+
+
+p.text1{
+    text-align: center;
+    color: #efe784;
+    line-height: 25px;
+    font-size: 1.050rem;
+}
+
+
+
+
+
+
+div.contenair2{
+    border: 1px solid red;
+    
+    background: white;
+    padding: 0px 0px 0px 0px;
+    padding-top: 20px;
+
+}
+
+
+h2.titre2{
+    text-align: center;
+    color: 6cbcb3;
+    border-top: 1px solid #efe784;
+    border-bottom: 1px solid #efe784;
+    margin: 40px 0px 25px 0px;
+}
+
+
+p.text2{
+    text-align: center;
+    color: #3e3838;
+    line-height: 25px;
+    font-size: 1.050rem;
+}
+
+
+
+
+
+
+div.contenair3{
+    border: 1px solid red;
+    background: green;
+    padding: 0px 0px 0px 0px;
+    padding-top: 20px;
+
+}
+
+
+h2.titre3{
+    text-align: center;
+    color: #efe784;
+    border-top: 1px solid #efe784;
+    border-bottom: 1px solid #efe784;
+    margin: 40px 0px 25px 0px;
+}
+
+
+p.text3{
+    text-align: center;
+    color: #efe784;
+    line-height: 25px;
+    font-size: 1.050rem;
+}
+
+
+
+
+
+
+div.contenair4{
+    border: 1px solid red;
+    background: green;
+    padding: 0px 0px 0px 0px;
+    padding-top: 20px;
+}
+div.titre4{
+    text-align: center;
+    color: #efe784;
+    border-top: 1px solid #efe784;
+    border-bottom: 1px solid #efe784;
+    margin: 40px 0px 25px 0px;
+}
+p.text4{
+    text-align: center;
+    color: #efe784;
+    line-height: 25px;
+    font-size: 1.050rem;
+}
+
+
+footer{
+    border: 1px solid red;
+    background: green;
+}
