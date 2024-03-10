@@ -1,0 +1,35 @@
+
+body {
+    background-color: #FFFFCC;
+    margin-left: 100px;
+}
+h1 {
+font-size: 48pt;
+color :#FF0000;
+font-style: italic;
+border-bottom: solid thin black;
+}
+p {
+font-size: 12pt;
+line-height: 14pt;
+font-family: Arial;
+letter-spacing: 0.2mm;
+word-spacing: 0.8mm;
+color: red;
+}
+
+#one {
+    background-color: red;
+  }
+
+
+
+
+a:hover {
+    color: green;
+}
+
+a::after {
+    color: yellow;
+    content: "*";
+}
