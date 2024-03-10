@@ -11,7 +11,7 @@ body{
 
 /* ---------------------------------------------------------------------- */
 
-div.header{
+section.header{
  
     background: green;
     background-image: url(./img/logoheader.png), url(./img/header.jpg);
@@ -23,7 +23,7 @@ div.header{
 }
 
 
-div.header h1.theader {
+section.header h1.theader {
     display: inline-flex;
     padding-left: 400px;
     margin: 0;
@@ -40,7 +40,7 @@ div.header h1.theader {
 
 /* ---------------------------------------------------------------------- */
 
-div.contenair1{
+section.contenair1{
 
     background: #3e3838;
     padding: 10px 150px 30px 150px;
@@ -70,7 +70,7 @@ p.text1{
 
 /* ---------------------------------------------------------------------- */
 
-div.contenair2{
+section.contenair2{
     border: 1px solid white;
     background: white;
     padding: 10px 150px 0px 0px;
@@ -114,7 +114,7 @@ p.sp2{
 
 /* ---------------------------------------------------------------------- */
 
-div.contenair3{
+section.contenair3{
     border: 1px solid #6cbcb3;
     background: #6cbcb3;
     padding: 10px 100px 0px 0px;
@@ -156,7 +156,7 @@ p.sp4{
 
 /* ---------------------------------------------------------------------- */
 
-div.contenair4{
+section.contenair4{
     border: 1px solid #3e3838;
     background: #3e3838;
     padding: 10px 100px 0px 0px;
@@ -198,7 +198,7 @@ p.sp6{
 /* ---------------------------------------------------------------------- */
 
 
-div.footer{
+section.footer{
     border: 1px solid #282828;
     background: #282828;
 }
