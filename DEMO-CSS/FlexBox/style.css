@@ -21,7 +21,7 @@
     flex-grow: 0;
     flex-shrink: 0; /* permet de reduire la box lorsque que la page est retrécie  */
     flex-basis: 33px;
-    flex: 0 0 33px; /* flex: grow | shrink | basis */
+    flex: 0 0 80px; /* flex: grow | shrink | basis */
 }
 
 #flex-item2{
