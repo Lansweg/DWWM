@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: space-evenly; 
+    flex-flow: row wrap; 
+
+}
+.item {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    font-size: 100px;
+    margin: 20px;
+    flex-basis: 150px; 
+}
