@@ -18,7 +18,7 @@
     width: 250px;
     height: 200px;
     order: 0; /* Le order permet d'afficher tel box avant tel box, les somme négatif permet d'afficher les box élever de s'afficher a l'avant. */
-    flex-grow: 0;;
+    flex-grow: 0;
     flex-shrink: 0; /* permet de reduire la box lorsque que la page est retrécie  */
     flex-basis: 33px;
     flex: 0 0 33px; /* flex: grow | shrink | basis */

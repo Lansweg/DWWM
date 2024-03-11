@@ -1,0 +1,38 @@
+
+.center{
+    background: rgb(0, 119, 255);
+    padding: 10px 10px 10px 10px;
+}
+header{
+    display: flex;
+    background-color: orange;
+    margin: 20px 20px 0px 20px;
+    height: 100px;
+}
+
+
+.contenair{
+    display: flex;
+    margin: 20px 20px 20px 20px;
+    align-items: stretch;
+    height: 400px;
+}
+
+.flexbox1{
+    background-color: grey;
+    flex-grow: 0;
+    width: 150px;
+    margin-right: 2%;
+}
+
+.flexbox2{
+    background-color: yellow;
+    flex-grow: 2;
+}
+
+footer{
+    display: flex;
+    background-color: green;
+    margin: 0px 20px 20px 20px;
+    height: 100px;
+}
