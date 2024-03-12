@@ -2,9 +2,15 @@ body{
     margin: 350px 350px;
 }
 
+section.container{}
+
+
+
+
+
 section.header{
     display: flex;
-    margin: 10px 10px 10px 10px;
+    margin: 1% 20% 1% 20%;
     justify-content: space-evenly;
     text-align: center;  
     height: 150px;
@@ -12,29 +18,31 @@ section.header{
     
 }
 
+
+
 .item1{
     background: #0fe267;
-    flex-grow: 20.50;
-    margin: 10px 10px 10px 10px;
+    flex-grow: 10;
+    margin: 1% 1% 1% 1%;
 }
 
 .item2{
     background: #0fc9e2;
-    flex-grow: 20.50;
-    margin: 10px 10px 10px 10px;
+    flex-grow: 10;
+    margin: 1% 1% 1% 1%;
 
 }
 
 .item3{
     background: #ba43d8;
-    flex-grow: 20.50;
-    margin: 10px 10px 10px 10px;
+    flex-grow: 10;
+    margin: 1% 1% 1% 1%;
 }
 
 .item4{
     background: #e2b10f;
-    flex-grow: 20.50;
-    margin: 10px 10px 10px 10px;
+    flex-grow: 10;;
+    margin: 1% 1% 1% 1%;
 }
 
 /* ------------------------------------------- */
@@ -42,7 +50,7 @@ section.header{
 .main{
     display: flex;
     background: #dd5248;
-    margin: 10px 20px 10px 20px;
+    margin: 1% 20.6% 1% 20.6%;
     justify-content: center;
     height: 100px;
 
@@ -50,8 +58,6 @@ section.header{
 
 .centre{
     display: flex;
-    background: #dd5248;
-    margin: 10px 10px 10px 10px;
     
     
     
@@ -60,7 +66,7 @@ section.header{
 
 section.footer{
     display: flex;
-    margin: 10px 10px 10px 10px;
+    margin: 1% 20% 1% 20%;
     justify-content: space-evenly;
     text-align: center;
     height: 150px;  
@@ -68,23 +74,23 @@ section.footer{
 .item5{
     background: #0fe267;
     flex-grow: 20.50;
-    margin: 10px 10px 10px 10px;
+    margin: 1% 1% 1% 1%;
 }
 
 .item6{
     background: #0fc9e2;
     flex-grow: 20.50;
-    margin: 10px 10px 10px 10px;
+    margin: 1% 1% 1% 1%;
 }
 
 .item7{
     background: #ba43d8;
     flex-grow: 20.50;
-    margin: 10px 10px 10px 10px;
+    margin: 1% 1% 1% 1%;
 }
 
 .item8{
     background: #e2b10f;
     flex-grow: 20.50;
-    margin: 10px 10px 10px 10px;
+    margin: 1% 1% 1% 1%;
 }
