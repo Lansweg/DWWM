@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: grey;
+}
+body nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #ECEFD8;
+  width: 100%;
+  height: 60px;
+}
+body .navlinks-container a {
+  color: #000;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  letter-spacing: 4px;
+  font-weight: 500;
+  /* Correction de la valeur de font-weight */
+  text-decoration: none;
+  position: relative;
+}
+body .navlinks-container a {
+  margin-right: 137px;
+  /* Espacement entre les éléments */
+}
+body .navlinks-container a:last-child {
+  margin-right: 0;
+  /* Supprimer la marge du dernier élément */
+}
+body main section .container-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  background: white;
+  background-image: url(/assets/img/logo-Header.png), url(/assets/img/header-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body main section .container-1 p {
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 24px;
+  letter-spacing: 4px;
+  margin-top: 230px;
+  font-weight: 200;
+  /* Correction de la valeur de font-weight */
+  text-decoration: none;
+  position: relative;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+body main section .container-2 {
+  text-align: center;
+  width: 100%;
+  height: 440px;
+  flex-shrink: 0;
+  background: white;
+  background: #ECEFD8;
+}
+body main section .container-2 h2 {
+  color: #393939;
+  font-family: Roboto Condensed, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 56px;
+  padding-bottom: 19px;
+}
+body main section .container-2 p {
+  color: #191A18;
+  text-align: center;
+  font-family: Roboto Condensed, sans-serif;
+  line-height: 176.4%;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 176.385%;
+  /* 35.277px */
+  letter-spacing: 0.5px;
+  padding: 0 200px;
+}
+body main section .container-2 button {
+  color: #EED690;
+  text-align: center;
+  font-family: Roboto Condensed, sans-serif;
+  line-height: 176.4%;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  background-color: #849561;
+  border: 1px solid white;
+  height: 65px;
+  width: 211px;
+  margin-top: 44px;
+}
+@media (max-width: 768px) {
+  nav {
+    padding: 15px 20px;
+    position: relative;
+  }
+}
