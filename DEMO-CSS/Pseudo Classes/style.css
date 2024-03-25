@@ -1,0 +1,17 @@
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    background: black;
+}
+
+input:focus{
+    background: aquamarine;
+}
+input{
+    display: flex;
+    border-radius: 50px;
+    background: gray;
+
+}

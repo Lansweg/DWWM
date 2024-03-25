@@ -91,11 +91,11 @@ body main section.container-2 .item2 button {
   border: 1px solid white;
   margin: 3%;
   padding: 1% 4%;
-  box-shadow: 1px 1px 10px black;
+  box-shadow: 0px 4px 4px 0px rgba(19, 18, 18, 0.25);
   cursor: pointer;
 }
 body main section.container-2 .item2 button:hover {
-  box-shadow: inset 1px 1px 10px black;
+  box-shadow: inset 1px 1px 10px rgba(19, 18, 18, 0.25);
 }
 body main section.container-3 {
   display: flex;
@@ -176,6 +176,7 @@ body main section.container-3 .cadre4 .btn5 {
   background-color: #393939;
   color: white;
   border: 1px solid #849561;
+  box-shadow: 0px 4px 4px 0px rgba(19, 18, 18, 0.25);
   border-radius: 5px;
   z-index: 1;
   width: 145px;
@@ -217,7 +218,6 @@ body main section.container-4 p {
 }
 body footer {
   background: #393939;
-  padding: 5%;
 }
 body footer .echo h2 {
   color: #849561;
@@ -228,31 +228,37 @@ body footer .echo h2 {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 5.06px;
-  padding-bottom: 10%;
+  padding: 10%;
 }
 body footer .flex2 {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
   justify-content: space-evenly;
+  margin-top: 5%;
 }
-body footer .flex2 img {
-  border-radius: 100%;
-  cursor: pointer;
+body footer .flex2 .profile1 {
+  width: 45vw;
+  background: #849561;
+  padding-top: 15%;
   position: relative;
-  transform: translateY(-100%);
+}
+body footer .flex2 .profile1 img {
+  border-radius: 100%;
+  position: absolute;
+  top: 0%;
+  /* Déplace l'image vers le haut de 50% de la hauteur du conteneur */
+  left: 50%;
+  /* Centre l'image horizontalement */
+  transform: translate(-50%, -50%);
+  /* Centre l'image verticalement */
   background-color: #393939;
   color: white;
 }
-body footer .profile1 {
-  width: 462px;
-  background: #849561;
-  padding-top: 12%;
-}
-body footer .profile1 h3 {
+body footer .flex2 .profile1 h3 {
   border-top: 1px solid white;
   color: #FFF;
-  text-align: center;
+  text-align: left;
   font-family: "Roboto Condensed";
   font-size: 20px;
   font-style: normal;
@@ -261,9 +267,8 @@ body footer .profile1 h3 {
   letter-spacing: 4.6px;
   margin: 3%;
   padding-top: 3%;
-  text-align: left;
 }
-body footer .profile1 p {
+body footer .flex2 .profile1 p {
   text-align: left;
   color: #FFF;
   font-family: "Roboto Condensed";
@@ -271,15 +276,13 @@ body footer .profile1 p {
   font-style: normal;
   font-weight: 400;
   line-height: 119.687%;
-  /* 16.756px */
   letter-spacing: 3.29px;
   padding: 3%;
 }
-body footer .profile1 .social1 {
+body footer .flex2 .profile1 .social1 {
   display: flex;
 }
-body footer .profile1 .social1 .google {
-  gap: 10px;
+body footer .flex2 .profile1 .social1 .google {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -288,8 +291,7 @@ body footer .profile1 .social1 .google {
   background: #393939;
   margin: 15px;
 }
-body footer .profile1 .social1 .twiiter {
-  gap: 10px;
+body footer .flex2 .profile1 .social1 .twiiter {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -298,8 +300,7 @@ body footer .profile1 .social1 .twiiter {
   background: #393939;
   margin: 15px 0 15px 0;
 }
-body footer .profile1 .social1 .facebook {
-  gap: 10px;
+body footer .flex2 .profile1 .social1 .facebook {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -308,26 +309,38 @@ body footer .profile1 .social1 .facebook {
   background: #393939;
   margin: 15px;
 }
-body footer .profile2 {
-  width: 462px;
+body footer .flex2 .profile2 {
+  width: 45vw;
   background: #849561;
-  padding-top: 12%;
+  padding-top: 15%;
+  position: relative;
 }
-body footer .profile2 h3 {
+body footer .flex2 .profile2 img {
+  border-radius: 100%;
+  position: absolute;
+  top: 0%;
+  /* Déplace l'image vers le haut de 50% de la hauteur du conteneur */
+  left: 50%;
+  /* Centre l'image horizontalement */
+  transform: translate(-50%, -50%);
+  /* Centre l'image verticalement */
+  background-color: #393939;
+  color: white;
+}
+body footer .flex2 .profile2 h3 {
   border-top: 1px solid white;
   color: #FFF;
-  text-align: center;
-  font-family: "Roboto Condensed";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 4.6px;
-  margin: 3%;
-  padding-top: 3%;
   text-align: right;
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4.6px;
+  margin: 3%;
+  padding-top: 3%;
 }
-body footer .profile2 p {
+body footer .flex2 .profile2 p {
   text-align: left;
   color: #FFF;
   font-family: "Roboto Condensed";
@@ -335,15 +348,13 @@ body footer .profile2 p {
   font-style: normal;
   font-weight: 400;
   line-height: 119.687%;
-  /* 16.756px */
   letter-spacing: 3.29px;
   padding: 3%;
 }
-body footer .profile2 .social2 {
+body footer .flex2 .profile2 .social2 {
   display: flex;
 }
-body footer .profile2 .social2 .google {
-  gap: 10px;
+body footer .flex2 .profile2 .social2 .google {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -352,8 +363,7 @@ body footer .profile2 .social2 .google {
   background: #393939;
   margin: 15px;
 }
-body footer .profile2 .social2 .twiiter {
-  gap: 10px;
+body footer .flex2 .profile2 .social2 .twiiter {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -362,8 +372,7 @@ body footer .profile2 .social2 .twiiter {
   background: #393939;
   margin: 15px 0 15px 0;
 }
-body footer .profile2 .social2 .facebook {
-  gap: 10px;
+body footer .flex2 .profile2 .social2 .facebook {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -371,4 +380,9 @@ body footer .profile2 .social2 .facebook {
   height: 50px;
   background: #393939;
   margin: 15px;
+}
+@media screen and (max-width: 985px) {
+  .echo h2 {
+    margin-bottom: 20%;
+  }
 }

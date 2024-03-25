@@ -38,7 +38,6 @@ body{
           background-size: auto, cover;
           padding: 2%;
         }   
- 
         section.container-1 .item1 p{
           color: white;
           font-family: "Roboto Condensed", sans-serif;
@@ -48,7 +47,6 @@ body{
           font-weight: 200; 
           text-decoration: none;
           position: relative;
-          // position: fixed;
           border-top: 1px solid white;
           border-bottom: 1px solid white;
           margin-bottom: 6%;
@@ -57,8 +55,6 @@ body{
     main{
         section.container-2{
           display: flex; 
-          // justify-content: space-around; 
-          // align-items: center; 
           text-align: center;
           width: 100%;
           flex-shrink: 0;
@@ -99,10 +95,10 @@ body{
           border: 1px solid white;
           margin: 3%;
           padding: 1% 4%;
-          box-shadow: 1px 1px 10px black;
+          box-shadow: 0px 4px 4px 0px rgba(19, 18, 18, 0.25);
           cursor: pointer;
           &:hover{
-              box-shadow: inset 1px 1px 10px black;
+              box-shadow: inset 1px 1px 10px rgba(19, 18, 18, 0.25);
           }
         }
         section.container-3{
@@ -134,7 +130,6 @@ body{
           flex-wrap: wrap; 
           flex: 1; 
           display: flex;
-          // flex-direction: column;
           flex-wrap: wrap;
           align-items: center;
         }
@@ -143,11 +138,6 @@ body{
         section.container-3 .cadre3,
         section.container-3 .cadre4 {
           background: #849561;
-          // flex: 1; 
-          // display: flex;
-          // flex-direction: column;
-          // flex-wrap: wrap;
-          // align-items: center;
           text-align: center;
           width: 252px;
           margin: 2rem ;
@@ -188,12 +178,11 @@ body{
         section.container-3 .cadre4 .btn5 {
           cursor: pointer;
           position: absolute; 
-          // bottom: -10px; 
           transform: translateX(-50%); 
           background-color: #393939; 
           color: white; 
-          // padding: 10px 20px; 
           border: 1px solid #849561; 
+          box-shadow: 0px 4px 4px 0px rgba(19, 18, 18, 0.25);
           border-radius: 5px; 
           z-index: 1; 
           width: 145px;
@@ -233,16 +222,8 @@ body{
     }
 
 
-
-
-
-
-
-
-
     footer {
       background: #393939;
-      padding: 5%;
       .echo h2{
         color: #849561;
         text-align: center;
@@ -252,32 +233,33 @@ body{
         font-weight: 700;
         line-height: normal;
         letter-spacing: 5.06px;
-        padding-bottom: 10%;
+        padding: 10%;
       }
       .flex2{
         display: flex;
         flex-wrap: wrap;
         text-align: center;
         justify-content: space-evenly;
+        margin-top: 5%;
+      
+      .profile1{
+        width: 45vw;
+        background: #849561;
+        padding-top: 15%;
+        position: relative;
         img{
           border-radius: 100%;
-          cursor: pointer;
-          position: relative; 
-          transform: translateY(-100%); 
-          background-color: #393939; 
-          color: white; 
+          position: absolute;
+          top: -0%; /* Déplace l'image vers le haut de 50% de la hauteur du conteneur */
+          left: 50%; /* Centre l'image horizontalement */
+          transform: translate(-50%, -50%); /* Centre l'image verticalement */
+          background-color: #393939;
+          color: white;
         }
-        
-      }
-      .profile1{
-        width: 462px;
-        background: #849561;
-        padding-top: 12%;
-        
         h3{
           border-top: 1px solid white;
           color: #FFF;
-          text-align: center;
+          text-align: left;
           font-family: "Roboto Condensed";
           font-size: 20px;
           font-style: normal;
@@ -286,7 +268,6 @@ body{
           letter-spacing: 4.6px;
           margin: 3%;
           padding-top: 3%;
-          text-align: left;
         }
         p{
           text-align: left;
@@ -295,16 +276,13 @@ body{
           font-size: 14px;
           font-style: normal;
           font-weight: 400;
-          line-height: 119.687%; /* 16.756px */
+          line-height: 119.687%; 
           letter-spacing: 3.29px;
           padding: 3%;
         }
         .social1{
           display: flex;
-          
-
           .google{
-            gap: 10px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -314,7 +292,6 @@ body{
             margin: 15px;
           }
           .twiiter{
-            gap: 10px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -324,7 +301,6 @@ body{
             margin: 15px 0 15px 0;
           }
           .facebook{
-            gap: 10px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -334,17 +310,25 @@ body{
             margin: 15px;
           }
         }
-        
       }
-
       .profile2{
-        width: 462px;
+        width: 45vw;
         background: #849561;
-        padding-top: 12%;
+        padding-top: 15%;
+        position: relative;
+        img{
+          border-radius: 100%;
+          position: absolute;
+          top: -0%; /* Déplace l'image vers le haut de 50% de la hauteur du conteneur */
+          left: 50%; /* Centre l'image horizontalement */
+          transform: translate(-50%, -50%); /* Centre l'image verticalement */
+          background-color: #393939;
+          color: white;
+        }
         h3{
           border-top: 1px solid white;
           color: #FFF;
-          text-align: center;
+          text-align: right;
           font-family: "Roboto Condensed";
           font-size: 20px;
           font-style: normal;
@@ -353,8 +337,6 @@ body{
           letter-spacing: 4.6px;
           margin: 3%;
           padding-top: 3%;
-
-          text-align: right;
         }
         p{
           text-align: left;
@@ -363,16 +345,13 @@ body{
           font-size: 14px;
           font-style: normal;
           font-weight: 400;
-          line-height: 119.687%; /* 16.756px */
+          line-height: 119.687%; 
           letter-spacing: 3.29px;
           padding: 3%;
         }
         .social2{
           display: flex;
-          
-
           .google{
-            gap: 10px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -382,7 +361,6 @@ body{
             margin: 15px;
           }
           .twiiter{
-            gap: 10px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -392,7 +370,6 @@ body{
             margin: 15px 0 15px 0;
           }
           .facebook{
-            gap: 10px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -403,6 +380,13 @@ body{
           }
         }
       }
-
     }
+  }
+}
+
+@media screen and (max-width: 985px) {
+  .echo h2{
+
+    margin-bottom: 20%;
+  }
 }
