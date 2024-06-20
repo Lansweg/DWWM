@@ -1,0 +1,22 @@
+.premier :nth-child(1){
+    font-size: 3rem;
+    color: red;
+}
+.premier :nth-child(2){
+    font-size: 2rem;
+    color: green;
+}
+
+.premier p:nth-of-type(5){
+    font-weight: 900;
+    color: brown;
+    font-size: 1.5rem;
+}
+
+
+/*=======================================================*/
+
+.deuxieme :nth-child(1){
+    font-size: 3rem;
+    color: purple;
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img src="./image/Fanlogo.svg" alt="" />
+    </header>
+
+    <section id="accueil">
+      <!-- <div id="tutoriel">
+        <h2>Tutoriel</h2>
+        <div class="infos">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+            aliquam error provident eius officia culpa, nostrum eum temporibus
+            vero aperiam ipsam rem quia neque cum beatae atque dolores doloribus
+            vel.
+          </p>
+        </div>
+      </div> -->
+
+      <div id="inscription" action="#">
+        <label for="joueur1">Pseudo Joueur 1:</label>
+        <input type="text" id="joueur1" name="joueur1" />
+        <!--  required -->
+        <label for="joueur2">Pseudo Joueur 2:</label>
+        <input type="text" id="joueur2" name="joueur2" />
+        <!--  required -->
+        <button id="start" type="submit">Start</button>
+      </div>
+    </section>
+
+    <section id="selectChar">
+      <div id="liste1">
+        <h2>Choix Joueur n°1</h2>
+        <img
+          src="./image/personnages/Rectangle-1.png"
+          alt="Personnage 1"
+          class="char char1j1"
+        />
+        <img
+          src="./image/personnages/Rectangle-2.png"
+          alt="Personnage 2"
+          class="char char2j1"
+        />
+        <img
+          src="./image/personnages/Rectangle-3.png"
+          alt="Personnage 3"
+          class="char char3j1"
+        />
+        <img
+          src="./image/personnages/Rectangle-4.png"
+          alt="Personnage 4"
+          class="char char4j1"
+        />
+        <img
+          src="./image/personnages/Rectangle-5.png"
+          alt="Personnage 5"
+          class="char char5j1"
+        />
+        <img
+          src="./image/personnages/Rectangle-6.png"
+          alt="Personnage 6"
+          class="char char6j1"
+        />
+        <img
+          src="./image/personnages/Rectangle-7.png"
+          alt="Personnage 7"
+          class="char char7j1"
+        />
+        <img
+          src="./image/personnages/Rectangle-8.png"
+          alt="Personnage 8"
+          class="char char8j1"
+        />
+      </div>
+      <div>
+        <button id="play" type="submit">Lancer la partie !</button>
+      </div>
+      <div id="liste2">
+        <h2>Choix Joueur n°2</h2>
+        <img
+          src="./image/personnages/Rectangle-1.png"
+          alt="Personnage 1"
+          class="char char1j2"
+        />
+        <img
+          src="./image/personnages/Rectangle-2.png"
+          alt="Personnage 2"
+          class="char char2j2"
+        />
+        <img
+          src="./image/personnages/Rectangle-3.png"
+          alt="Personnage 3"
+          class="char char3j2"
+        />
+        <img
+          src="./image/personnages/Rectangle-4.png"
+          alt="Personnage 4"
+          class="char char4j2"
+        />
+        <img
+          src="./image/personnages/Rectangle-5.png"
+          alt="Personnage 5"
+          class="char char5j2"
+        />
+        <img
+          src="./image/personnages/Rectangle-6.png"
+          alt="Personnage 6"
+          class="char char6j2"
+        />
+        <img
+          src="./image/personnages/Rectangle-7.png"
+          alt="Personnage 7"
+          class="char char7j2"
+        />
+        <img
+          src="./image/personnages/Rectangle-8.png"
+          alt="Personnage 8"
+          class="char char8j2"
+        />
+      </div>
+    </section>
+
+    <section id="battle">
+      <div class="player1combat">
+        <h2>Joueur 1</h2>
+        <img src=" " class="imgperso1" alt="" />
+        <button id="boutonSort">Lancer le sort</button>
+        <p id="vieAdversaire">Vie de l'adversaire: 100</p>
+        <div id="lifebar">
+          <div id="status"></div>
+        </div>
+      </div>
+      <div class="logcombat">
+        <h2>Combat logs</h2>
+        <br />
+        <p></p>
+      </div>
+      <div class="player2combat">
+        <h2>Joueur 2</h2>
+        <img src=" " class="imgperso2" alt="" />
+        <button id="boutonSort2">Lancer le sort</button>
+        <p id="vieAdversaire2">Vie de l'adversaire: 100</p>
+        <div id="lifebar2">
+          <div id="status2"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="endBattle"></section>
+    <!-- Le modal -->
+    <div id="myEnd" class="End">
+      <div class="End-content">
+        <span onclick="closeEndModal()" style="float: right; cursor: pointer"
+          >Fermer</span
+        >
+        <h2>Partie Fini !</h2>
+        <p class="tfinend">Le joueur null a gagner !</p>
+      </div>
+    </div>
+    <!-- Le modal -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="btnclosemodal" style="float: right; cursor: pointer"
+          >Fermer</span
+        >
+        <h2>Tutorial</h2>
+        <p>Bienvenue sur Fan'Astik <br />Un jeu Tour par Tour</p>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

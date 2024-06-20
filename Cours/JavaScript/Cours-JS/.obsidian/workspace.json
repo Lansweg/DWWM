@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "f62c87da35c46bf3",
+    "type": "split",
+    "children": [
+      {
+        "id": "71641b9b09901889",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ff75f5260eac457",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cours/1- Introduction à JavaScript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b55f559179a8d922",
+    "type": "split",
+    "children": [
+      {
+        "id": "28d11deafd24fedf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6dd3451fe49414f2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d59a0ec967a45a4c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1b76c14a401b69cb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 283.5
+  },
+  "right": {
+    "id": "6a95b1b3e7129ffa",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3562d8bfe58bbe8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae889b23b578968c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Cours/1- Introduction à JavaScript.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "49db35e6fbbae815",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Cours/1- Introduction à JavaScript.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b08ed5109a3061ed",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c3ec7775e7deab7c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Cours/1- Introduction à JavaScript.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false
+    }
+  },
+  "active": "1ff75f5260eac457",
+  "lastOpenFiles": [
+    "Cours/2- Syntaxe de base.md",
+    "Cours/3- Manipulation du DOM.md",
+    "Cours/4- Gestion des tableaux et Objets.md",
+    "Cours/5- Fonctions avancées.md",
+    "Cours/9- Bonnes Pratiques et Débogage.md",
+    "Cours/8- Frameworks JavaScript.md",
+    "Cours/7- AJAX (Asynchronous JavaScript and XML).md",
+    "Exercices/Exercices - Manipulation du DOM.md",
+    "Exercices/Exercices - Fonctions.md",
+    "Exercices/Exercices - Conditions & boucles.md",
+    "Exercices/Exercices - Algo de base.md",
+    "Aide mémoire - Manipulation du DOM.md",
+    "Aide mémoire - Tableaux.md",
+    "Aide mémoire - Général.md",
+    "Sommaire.md",
+    "Sans titre.md",
+    "Sans titre 1.canvas",
+    "Sans titre.canvas",
+    "2024-05-16.md",
+    "Cours/1- Introduction à JavaScript.md",
+    "Cours/6- Concepts Avancés.md",
+    "Welcome.md",
+    "Cours",
+    "Exercices"
+  ]
+}

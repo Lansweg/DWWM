@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: #212121;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+    background: rgba(128, 128, 128, 0.144);
+    border-radius: 100px;
+    margin: 1% 20% 3% 20%;
+    padding: 0.5%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    padding: 0% 10% 0% 10%;
+    
+    justify-content: space-evenly;
+}
+
+#card {
+    width: 210px;
+    height: 280px;
+    background: rgb(39, 39, 39);
+    border-radius: 12px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.123);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
+    
+    
+    transition-duration: .5s;
+  }
+  
+  #profileImage {
+    /* background: linear-gradient(to right,rgb(54, 54, 54),rgb(32, 32, 32)); */
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+  }
+  
+  #textContainer {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  
+  #name {
+    font-size: 0.9em;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.5px;
+  }
+  
+  #profile {
+    font-size: 0.84em;
+    color: rgb(194, 194, 194);
+    letter-spacing: 0.2px;
+  }
+  #card:hover {
+    background-color: rgb(75, 75, 75);
+    transition-duration: .2s;
+  }

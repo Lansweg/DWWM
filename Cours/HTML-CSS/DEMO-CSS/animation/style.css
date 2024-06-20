@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.box{
+    background: black;
+    width: 200px;
+    height: 200px;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation: fadeIn 1s 2s alternate infinite ease-in;
+
+}
+
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        transform: rotate(-150deg);
+        background-color: aquamarine;
+    }
+}

@@ -1,0 +1,110 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+h1 {
+  letter-spacing: 2px;
+  font-size: 2rem;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Ce code CSS applique des styles au corps (`body`) d'une page web. Voici ce que chaque ligne signifie :
+
+1. `margin: 0 auto;` : Cela définit une marge de 0 sur le haut et le bas du corps, et une marge automatique sur les côtés, ce qui centre horizontalement le 
+contenu du corps dans son conteneur parent. 
+
+2. `width: min(1000px, calc(70% + 100px));` : Cela définit la largeur du corps. La largeur sera le plus petit des deux valeurs spécifiées : 
+
+- `1000px` : 
+C'est la valeur maximale de la largeur que le corps peut avoir. Si la largeur du conteneur parent est inférieure à 1000 pixels, cette limite s' appliquera. 
+
+- `calc(70% + 100px)` : Cette expression calcule la largeur en prenant 70% de la largeur du conteneur parent,
+puis en ajoutant 100 pixels. Cela signifie que si 70% de la largeur du conteneur parent plus 100 pixels est inférieur à 1000 pixels,
+alors cette expression sera utilisée pour définir la largeur du corps. Sinon, la largeur sera limitée à 1000 pixels. 
+
+En résumé,cette règle CSS assure que la largeur du corps de la page est comprise entre 1000 pixels et 70% de la largeur du conteneur parent,
+plus 100 pixels,
+en prenant la valeur la plus petite de ces deux mesures. Cela garantit une certaine flexibilité tout en limitant la taille maximale du corps à 1000 pixels. */
+
+
+
+/* Le "clamp" en CSS est une fonction qui permet de définir une plage 
+  de valeurs pour une propriété CSS, en prenant en compte trois 
+  valeurs : une valeur minimale, une valeur préférée et une valeur maximale. 
+  Cela permet de spécifier un comportement flexible pour une propriété CSS, 
+  en permettant à la valeur de s'ajuster dynamiquement en fonction de la taille 
+  de l'écran ou d'autres conditions.
+
+La syntaxe générale de la fonction clamp() est la suivante :
+
+```
+clamp(min, preferred, max)
+```
+
+- "min" est la valeur minimale que la propriété peut avoir.
+- "preferred" est la valeur préférée que la propriété devrait avoir.
+- "max" est la valeur maximale que la propriété peut avoir.
+
+La valeur calculée est la valeur préférée ("preferred") si elle est 
+comprise entre la valeur minimale ("min") et la valeur maximale ("max"). 
+Si la valeur préférée est inférieure à la valeur minimale, elle est ajustée 
+à la valeur minimale. Si la valeur préférée est supérieure à la valeur maximale, 
+elle est ajustée à la valeur maximale.
+
+Voici un exemple concret d'utilisation de la fonction clamp() en CSS :
+
+```css
+font-size: clamp(16px, 2vw, 24px);
+```
+
+Dans cet exemple, la taille de la police sera de 16 pixels si la largeur de 
+la fenêtre est inférieure à 800 pixels (car 2vw deviendra plus petit que 16px 
+lorsque la largeur de la fenêtre est inférieure à 800 pixels). La taille de la 
+police sera de 2% de la largeur de la fenêtre si elle est comprise entre 800 
+pixels et 1200 pixels (car la taille de la police augmentera avec la largeur de 
+la fenêtre). Enfin, la taille de la police sera de 24 pixels si la largeur de la 
+fenêtre est supérieure à 1200 pixels (car 2vw deviendra plus grand que 24px lorsque 
+la largeur de la fenêtre est supérieure à 1200 pixels).
+
+Cela rend la fonction clamp() très utile pour créer des mises en page flexibles et 
+adaptatives, où les valeurs des propriétés CSS peuvent être ajustées en fonction des 
+conditions d'affichage. */

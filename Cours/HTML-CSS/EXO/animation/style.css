@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(to right, #4B0082, #8A2BE2, #FF1493);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.annimation {
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .svg1 {
+    position: absolute;
+    top: 520px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px dashed white;
+    background-color: rgba(0, 0, 255, 0);
+    animation: rotate 0.1s linear infinite;
+    animation-duration: 0.2s;
+  }
+  .svg2 {
+    position: absolute;
+    top: 560px;
+    left: 55%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px dashed white;
+    background-color: rgba(0, 0, 255, 0);
+    animation: rotate 0.1s linear infinite;
+    animation-duration: 0.2s;
+  }
+
+  @keyframes rotate {
+    from{
+        transform: rotate(35deg);
+        transition: 0.1s;
+    }
+    to{
+        transform: rotate(135deg);
+        transition: 0.1s;
+    }
+  }

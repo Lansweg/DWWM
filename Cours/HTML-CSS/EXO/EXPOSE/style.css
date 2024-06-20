@@ -1,0 +1,389 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: grey;
+}
+body nav {
+  background: #ECEFD8;
+}
+body nav .navlinks-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
+}
+body nav .navlinks-container a {
+  color: #000;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  text-decoration: none;
+  position: relative;
+}
+body header section.container-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background: white;
+  background-image: url(/EXPOSE-CR/assets/img/logo-Header.png), url(/EXPOSE-CR/assets/img/header-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto, cover;
+  padding: 2%;
+}
+body header section.container-1 .item1 p {
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 24px;
+  letter-spacing: 4px;
+  margin-top: 230px;
+  font-weight: 200;
+  text-decoration: none;
+  position: relative;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  margin-bottom: 6%;
+}
+body main section.container-2 {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  flex-shrink: 0;
+  background: white;
+  background: #ECEFD8;
+}
+body main section.container-2 .item2 h2 {
+  color: #393939;
+  font-family: Roboto Condensed, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 56px;
+  padding-bottom: 19px;
+}
+body main section.container-2 .item2 p {
+  color: #191A18;
+  text-align: center;
+  font-family: Roboto Condensed, sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 176%;
+  letter-spacing: 0.1px;
+  padding: 0 15%;
+}
+body main section.container-2 .item2 button {
+  color: #EED690;
+  text-align: center;
+  font-family: Roboto Condensed, sans-serif;
+  line-height: 176.4%;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  background-color: #849561;
+  border: 1px solid white;
+  margin: 3%;
+  padding: 1% 4%;
+  box-shadow: 0px 4px 4px 0px rgba(19, 18, 18, 0.25);
+  cursor: pointer;
+}
+body main section.container-2 .item2 button:hover {
+  box-shadow: inset 1px 1px 10px rgba(19, 18, 18, 0.25);
+}
+body main section.container-3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background: white;
+  background: #ECEFD8;
+}
+body main section.container-3 {
+  background: #393939;
+  padding: 2%;
+}
+body main section.container-3 .item3 h2 {
+  color: #849561;
+  font-family: "Roboto Condensed";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 118.687%;
+  letter-spacing: 3.41px;
+  margin-bottom: 1%;
+}
+body main section.container-3 .flex1 {
+  justify-content: space-around;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+body main section.container-3 .cadre1,
+body main section.container-3 .cadre2,
+body main section.container-3 .cadre3,
+body main section.container-3 .cadre4 {
+  background: #849561;
+  text-align: center;
+  width: 252px;
+  margin: 2rem ;
+  padding: 0 0 20px 0;
+}
+body main section.container-3 img,
+body main section.container-3 img,
+body main section.container-3 img,
+body main section.container-3 img {
+  max-width: 100%;
+}
+body main section.container-3 h3,
+body main section.container-3 h4 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body main section.container-3 h3 {
+  padding: 35px 0 0 0;
+}
+body main section.container-3 p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 19px 50px 37px 50px;
+}
+body main section.container-3 .cadre1 .btn2,
+body main section.container-3 .cadre2 .btn3,
+body main section.container-3 .cadre3 .btn4,
+body main section.container-3 .cadre4 .btn5 {
+  cursor: pointer;
+  position: absolute;
+  transform: translateX(-50%);
+  background-color: #393939;
+  color: white;
+  border: 1px solid #849561;
+  box-shadow: 0px 4px 4px 0px rgba(19, 18, 18, 0.25);
+  border-radius: 5px;
+  z-index: 1;
+  width: 145px;
+  height: 42px;
+}
+body main section.container-3 .cadre1 .btn2:hover,
+body main section.container-3 .cadre2 .btn3:hover,
+body main section.container-3 .cadre3 .btn4:hover,
+body main section.container-3 .cadre4 .btn5:hover {
+  box-shadow: inset 1px 1px 10px #849561;
+}
+body main section.container-4 {
+  background-image: url(/EXPOSE-CR/assets/img/modern-industrial-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+body main section.container-4 svg {
+  margin: 43px 0 41px 0;
+}
+body main section.container-4 h2 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20%;
+}
+body main section.container-4 p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 179.9%;
+  letter-spacing: 0.24px;
+  padding: 42px 210px;
+}
+body footer {
+  background: #393939;
+  padding: 2%;
+}
+body footer .echo h2 {
+  color: #849561;
+  text-align: center;
+  font-family: Roboto Condensed, sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 5.06px;
+  padding: 10%;
+}
+body footer .flex2 {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+body footer .flex2 .profile1 {
+  width: 30vw;
+  background: #849561;
+  padding-top: 15%;
+  position: relative;
+}
+body footer .flex2 .profile1 img {
+  border-radius: 100%;
+  position: absolute;
+  top: 0%;
+  /* Déplace l'image vers le haut de 50% de la hauteur du conteneur */
+  left: 50%;
+  /* Centre l'image horizontalement */
+  transform: translate(-50%, -50%);
+  /* Centre l'image verticalement */
+  background-color: #393939;
+  color: white;
+}
+body footer .flex2 .profile1 h3 {
+  border-top: 1px solid white;
+  color: #FFF;
+  text-align: left;
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4.6px;
+  margin: 3%;
+  padding-top: 3%;
+}
+body footer .flex2 .profile1 p {
+  text-align: left;
+  color: #FFF;
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 119.687%;
+  letter-spacing: 3.29px;
+  padding: 3%;
+}
+body footer .flex2 .profile1 .social1 {
+  display: flex;
+}
+body footer .flex2 .profile1 .social1 .google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #393939;
+  margin: 15px;
+}
+body footer .flex2 .profile1 .social1 .twiiter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #393939;
+  margin: 15px 0 15px 0;
+}
+body footer .flex2 .profile1 .social1 .facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #393939;
+  margin: 15px;
+}
+body footer .flex2 .profile2 {
+  width: 30vw;
+  background: #849561;
+  padding-top: 15%;
+  position: relative;
+}
+body footer .flex2 .profile2 img {
+  border-radius: 100%;
+  position: absolute;
+  top: 0%;
+  /* Déplace l'image vers le haut de 50% de la hauteur du conteneur */
+  left: 50%;
+  /* Centre l'image horizontalement */
+  transform: translate(-50%, -50%);
+  /* Centre l'image verticalement */
+  background-color: #393939;
+  color: white;
+}
+body footer .flex2 .profile2 h3 {
+  border-top: 1px solid white;
+  color: #FFF;
+  text-align: right;
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4.6px;
+  margin: 3%;
+  padding-top: 3%;
+}
+body footer .flex2 .profile2 p {
+  text-align: left;
+  color: #FFF;
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 119.687%;
+  letter-spacing: 3.29px;
+  padding: 3%;
+}
+body footer .flex2 .profile2 .social2 {
+  display: flex;
+}
+body footer .flex2 .profile2 .social2 .google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #393939;
+  margin: 15px;
+}
+body footer .flex2 .profile2 .social2 .twiiter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #393939;
+  margin: 15px 0 15px 0;
+}
+body footer .flex2 .profile2 .social2 .facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #393939;
+  margin: 15px;
+}
+@media screen and (max-width: 985px) {
+  .echo h2 {
+    margin-bottom: 20%;
+  }
+}

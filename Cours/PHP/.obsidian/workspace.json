@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "8a1e7bec656aa563",
+    "type": "split",
+    "children": [
+      {
+        "id": "19b04d537a374110",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66d872bc1f514c67",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "704a42bbd028b8ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d88fccc962c683e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f50fe10963517c1f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "01bda525f826e471",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7883b81683aa00b7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fcce7bc3e1bbb055",
+    "type": "split",
+    "children": [
+      {
+        "id": "6934c1c30200b79c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "32d23234773314c9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7ebfe7fff0d372bb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "13534b8a37237d9e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7b635cf4de770046",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false
+    }
+  },
+  "active": "66d872bc1f514c67",
+  "lastOpenFiles": [
+    "FormulairePHP/template.php",
+    "FormulairePHP/index.php",
+    "FormulairePHP",
+    "Formulaire-PHP/index.php",
+    "Formulaire-PHP/template.php",
+    "Formulaire-PHP",
+    "Nouveau dossier",
+    "Nouveau document RTF.rtf",
+    "Exercice/2-EXERCICES-LECTURE_et_ECRITURE (1).pdf",
+    "Exercice/Boucle/Boucle.php.md",
+    "Exercice/ECF-PHP (1).pdf",
+    "Cours/repertoire (2).pdf",
+    "Exercice/tableau-associatifs/tableau-associatifs.php.md",
+    "Exercice/tableau-multidimensionnels/tableau-multidimensionnels.php.md",
+    "Exercice/Boucle for/BoucleFor.php.md",
+    "Exercice/fonction/Fonction.php.md",
+    "Exercice/fonction/F_Fonction.php.md",
+    "Exercice/Lecture&Ecriture/Lexture&Ecriture.php.md",
+    "Exercice/repertoire/F_Repertoire.php.md",
+    "Exercice/repertoire/Répertoire.php.md",
+    "Exercice/tableau/tableau.php.md",
+    "Cours/index.php.md",
+    "Welcome.md"
+  ]
+}

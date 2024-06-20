@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: #212121;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+    background: rgba(128, 128, 128, 0.144);
+    border-radius: 100px;
+    margin: 1% 20% 3% 20%;
+    padding: 0.5%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+table {
+    border-collapse: collapse;
+    text-align: center;
+        
+    transition-duration: .5s;
+}
+
+td /* Mettre une bordure sur les td ET les th */ {
+    width: 15em;
+    border: 1px solid rgb(71, 71, 71);
+    color: white;
+    padding: 10px;
+    transition-duration: .5s;
+    font-size: 16px;
+}
+
+tr{
+    width: 15em;
+    border: 1px solid rgb(71, 71, 71);
+    color: white;
+    padding: 10px;
+    transition-duration: .5s;
+    font-size: 25px;
+}

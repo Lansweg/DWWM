@@ -1,0 +1,12 @@
+.premier h1 {
+  font-size: 50px;
+  color: green;
+}
+.premier h2 {
+  font-size: 30px;
+  font-weight: 900;
+  color: brown;
+}
+.premier :nth-child(4) {
+  color: blue;
+}

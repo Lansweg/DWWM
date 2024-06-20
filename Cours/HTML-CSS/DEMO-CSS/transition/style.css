@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.box{
+    background: black;
+    width: 200px;
+    height: 200px;
+    transition-duration: 2s;
+    /* transition-property: background; */
+    /* transition-timing-function: ease-in; */
+    transition: background height 2s ease-in 1s;
+}
+.box:hover{
+    background: white;
+    height: 400px;
+}

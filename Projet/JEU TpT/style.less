@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./image/fond/wallpaperbetter.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    header{
+        img{
+            margin-top: -60px;
+            height: 281px;
+        }
+    }
+    #accueil{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        
+        #inscription{
+            padding: 1%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 343px;
+            border-radius: 12px;
+            gap: 10px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            font-size: 22px;
+            font-family: "Pacifico", cursive;
+            font-weight: 400;
+            font-style: normal;
+            color: white;
+
+
+            #joueur1{
+                width: 70%;
+                padding: 8px;
+
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                box-sizing: border-box;
+            }
+            #joueur2{
+                width: 70%;
+                padding: 8px;
+
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                box-sizing: border-box;
+            }
+            #start{
+                background-color: #4CAF50;
+                color: white;
+                width: 40%;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+                font-family: "Pacifico", cursive;
+                font-weight: 400;
+                font-style: normal;
+                
+            }
+            button:hover {
+                background-color: #45a049;
+            }
+            
+            button:active {
+                background-color: #3e8e41;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #selectChar{
+        display: none;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+        margin: 0% 5% 2% 5%;
+        height: 60vh;
+        background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4.5px );
+        -webkit-backdrop-filter: blur( 4.5px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        #liste1{
+            background: rgba(0, 0, 0, 0.509);
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4.5px );
+            -webkit-backdrop-filter: blur( 4.5px );
+            border-radius: 10px;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            width: 230px;
+            gap: 5%;
+            flex-wrap: wrap;
+            flex-direction: row;
+            h2{
+                color: white;
+                font-size: 22px;
+                font-family: "Pacifico", cursive;
+                font-weight: 400;
+                font-style: normal;
+            }
+            img{
+                height: 75px;
+                width: 75px;
+                border-radius: 12px;
+                margin-bottom: 5% ;
+            }
+            img:hover{
+                cursor: pointer;
+                border: 2px solid white;
+            }
+        }
+        
+        
+        #liste2{
+            background: rgba(0, 0, 0, 0.509);
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4.5px );
+            -webkit-backdrop-filter: blur( 4.5px );
+            border-radius: 10px;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            width: 230px;
+            gap: 5%;
+            flex-wrap: wrap;
+            flex-direction: row;
+            h2{
+                color: white;
+                font-size: 22px;
+                font-family: "Pacifico", cursive;
+                font-weight: 400;
+                font-style: normal;
+            }
+            img{
+                height: 75px;
+                width: 75px;
+                border-radius: 12px;
+                margin-bottom: 5% ;
+            }
+            img:hover{
+                cursor: pointer;
+                border: 2px solid white;
+            }
+        }
+        #play{
+            background: rgba(0, 0, 0, 0.461);
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4.5px );
+            -webkit-backdrop-filter: blur( 4.5px );
+            color: white;
+            width: 100%;
+            height: 8vh;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: "Pacifico", cursive;
+            font-weight: 400;
+            font-size: 26px;
+            font-style: normal;
+            
+        }
+        #play:hover {
+            background-color: #45a049;
+        }
+        
+        #play:active {
+            background-color: #3e8e41;
+        }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #battle{
+        display: none;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        height: 40vh;
+        background: #2424245b;
+        
+        .player1combat{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background: rgba( 255, 255, 255, 0.25 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4.5px );
+            -webkit-backdrop-filter: blur( 4.5px );
+            border-radius: 10px;
+            padding: 2%;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+            color: rgb(0, 0, 0);
+            
+            #lifebar{
+                width: 100%;
+                height: 20px;
+                border: 1px solid white;
+                background: gray;
+                #status{
+                    width: 100%;
+                    height: 100%;
+                    background: red;
+                }
+            }
+            button{
+                background: rgba(0, 0, 0, 0.461);
+                box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                backdrop-filter: blur( 4.5px );
+                -webkit-backdrop-filter: blur( 4.5px );
+                color: white;
+                width: 150px;
+                height: 6vh;
+                padding: 2% 2% 2% 2%;
+                
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-family: "Pacifico", cursive;
+                font-weight: 400;
+                font-size: 20px;
+                font-style: normal;
+            }
+            button:hover{
+                background: green;
+            }
+            button:active{
+                background: rgb(0, 65, 0);
+            }
+            button:disabled{
+                background: rgb(46, 46, 46);
+                cursor: wait;
+            }
+        }
+
+
+
+
+
+        .logcombat{
+            width: 250px;
+            // height: 10vh;
+            display: flex;
+            flex-direction: column;
+            background: rgba( 255, 255, 255, 0.25 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4.5px );
+            -webkit-backdrop-filter: blur( 4.5px );
+            border-radius: 10px;
+            // padding: 2%;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+        }
+
+
+
+
+
+        .player2combat{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background: rgba( 255, 255, 255, 0.25 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4.5px );
+            -webkit-backdrop-filter: blur( 4.5px );
+            border-radius: 10px;
+            padding: 2%;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+            color: rgb(0, 0, 0);
+            #lifebar2{
+                
+                width: 100%;
+                height: 20px;
+                border: 1px solid white;
+                background: gray;
+                #status2{
+                    width: 100%;
+                    height: 100%;
+                    background: red;
+                }
+            }
+            button{
+                background: rgba(0, 0, 0, 0.461);
+                box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                backdrop-filter: blur( 4.5px );
+                -webkit-backdrop-filter: blur( 4.5px );
+                color: white;
+                width: 150px;
+                height: 6vh;
+                padding: 2% 2% 2% 2%;
+                
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-family: "Pacifico", cursive;
+                font-weight: 400;
+                font-size: 20px;
+                font-style: normal;
+            }
+            button:hover{
+                background: green;
+            }
+            button:active{
+                background: rgb(0, 65, 0);
+            }
+            button:disabled{
+                background: rgb(46, 46, 46);
+                cursor: wait;
+            }
+        }
+        
+    }
+
+
+
+    #endBattle{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style pour le modal */
+.End {
+    display: none; /* Par défaut, le modal est caché */
+    position: fixed; /* Positionnement fixe pour couvrir toute la fenêtre */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+   
+  }
+
+  /* Style pour le contenu du modal */
+  .End-content {
+    background-color: #fefefe;
+    margin: 20% auto; /* Centrer le modal verticalement et horizontalement */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px; /* Largeur maximale du modal */
+    font-size: 22px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* Style pour le modal */
+.modal {
+    display: flex; /* Par défaut, le modal est caché */
+    position: fixed; /* Positionnement fixe pour couvrir toute la fenêtre */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+   
+  }
+
+  /* Style pour le contenu du modal */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 20% auto; /* Centrer le modal verticalement et horizontalement */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px; /* Largeur maximale du modal */
+    font-size: 22px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+

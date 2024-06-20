@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+/* EXO 1 
+.rectangles{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 2%;
+}
+
+.rect1{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.rect2{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.rect3{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.rect4{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+} */
+
+
+/* .possition{
+    display: flex;
+    width: 1500px;
+    height: 700px;
+    background: red;
+}
+
+.particle {
+    position: absolute;
+    background-color: #000000; Couleur des particules
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+} */
+
+
+.divbtn{
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+    align-items: center;
+
+}
+#startButton{
+    background: grey;
+}
+
+.recbtn{
+    width: 500px;
+    height: 200px;
+    background: gray;
+}
+
+#cercle {
+    display: none;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ff0000;
+}

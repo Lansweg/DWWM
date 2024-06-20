@@ -1,0 +1,57 @@
+body{
+    background: rgb(73, 160, 187);
+    margin: 0% 20% 0% 20%;
+}
+
+header{
+    background: rgb(17, 146, 103);
+    height: 70px;
+    margin: 2%;
+    text-align: center;
+}
+
+.container1{
+    display: flex;
+    background: rgb(73, 160, 187);
+    height: 500px;
+    margin: 2%;
+    gap: 2%;
+}
+
+.item1{
+    background: green;
+    flex-grow: 1;
+}
+.item2{
+    background: orange;
+    flex-grow: 2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 1%;
+}
+
+.image1{
+    background: rgb(240, 205, 11);
+    width: 200px;
+    height: 200px;
+}
+
+.image2{
+    background: rgb(240, 205, 11);
+    width: 200px;
+    height: 200px;
+}
+
+.image3{
+    background: rgb(240, 205, 11);
+    width: 200px;
+    height: 200px;
+}
+
+footer{
+    background: rgb(17, 146, 103);
+    height: 70px;
+    margin: 2%;
+    text-align: center;
+}

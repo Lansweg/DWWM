@@ -1,0 +1,17 @@
+Tables
+Équipe:
+Attributs : ID (clé primaire), Nom, Ville, Année de création
+Cette table stocke les informations sur les équipes participantes.
+Joueur:
+Attributs : ID (clé primaire), Nom, Prénom, Date de naissance, Position, Équipe_ID (clé étrangère vers la table Équipe)
+Cette table contient les détails sur les joueurs.
+Match:
+Attributs : ID (clé primaire), Date, Heure, Équipe domicile_ID (clé étrangère vers la table Équipe), Équipe visiteur_ID (clé étrangère vers la table Équipe), Résultat (par exemple, “Victoire”, “Défaite”, “Match nul”)
+Cette table enregistre les informations sur les matchs, y compris les équipes participantes et les résultats.
+Admin:
+Attributs : ID (clé primaire), Nom d’utilisateur, Mot de passe (crypté), Adresse e-mail
+Cette table stocke les informations d’identification des administrateurs.
+Relations
+Une équipe peut participer à plusieurs matchs (relation 1 à N entre Équipe et Match).
+Un match a exactement une équipe à domicile et une équipe visiteur (relation 1 à 1 entre Match et Équipe).
+Un joueur appartient à une seule équipe (relation 1 à N entre Joueur et Équipe).

@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "f461fbc7ef5fc5f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "c226a37177cc3bfb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "98c9606dcb089c23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sans titre.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5f797f2f9466c284",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8966bb2d82d44f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a20e8c4f998f32a3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "68da21605149e6c3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "19cab8a29447c0de",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "1cc8dcd802b50d51",
+    "type": "split",
+    "children": [
+      {
+        "id": "60cdd39c89806484",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dfbadfc6d5d5c2b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Sans titre.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1aa0d59fe0625cc0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Sans titre.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "702790db976b3d56",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a796badaba9a3c58",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Sans titre.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false
+    }
+  },
+  "active": "98c9606dcb089c23",
+  "lastOpenFiles": [
+    "Sans titre.md",
+    "Base de donnée/MCD_CR.pdf",
+    "Base de donnée/SQL/ECF-SQL-CR.md",
+    "Base de donnée/cours/MySQL.md",
+    "EXO_SQL_CMD/Listes des commandes SQL.md",
+    "Mongodb/EXO/Cours.md",
+    "Base de donnée/projet_dofus/INFOS.md",
+    "Pasted image 20240430090558.png",
+    "Base de donnée/projet_dofus",
+    "Mongodb/EXO",
+    "Mongodb/COURS",
+    "Mongodb",
+    "Pasted image 20240430090553.png",
+    "Base de donnée/SQL/jo2024.svg",
+    "EXO_SQL_CMD",
+    "Base de donnée/exercices/EXERCICES MCD.md",
+    "Base de donnée/exercices/Exo_Courses_Hippiques/courses_hippiques",
+    "Base de donnée/exercices/Exo_Courses_Hippiques",
+    "Base de donnée/exercices/New Folder",
+    "Base de donnée/exercices/Exo_Discographie/01-2-MCD.PNG",
+    "Base de donnée/exercices/Exo_Gastronomie/Correction_Guide_Gastronomique.pdf",
+    "Base de donnée/exercices/Exo_Casse_Automobile/03-2-MCD.PNG",
+    "Base de donnée/exercices/Exo_Casse_Automobile/03-1-MCD.PNG",
+    "Base de donnée/exercices/Exo_Discographie/01-1-MCD.PNG",
+    "Base de donnée/exercices/Exo_La_Bibliothèque/04-4-MCD.PNG",
+    "Base de donnée/exercices/Exo_La_Bibliothèque/04-3-MCD.PNG",
+    "Base de donnée/exercices/Exo_La_Bibliothèque/04-2-MCD.PNG",
+    "Welcome.md"
+  ]
+}

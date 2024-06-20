@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(image/fond/wallpaperbetter.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  /* Style pour le modal */
+  /* Style pour le contenu du modal */
+}
+body header img {
+  margin-top: -60px;
+  height: 281px;
+}
+body #accueil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body #accueil #inscription {
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 343px;
+  border-radius: 12px;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  font-size: 22px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+body #accueil #inscription #joueur1 {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+body #accueil #inscription #joueur2 {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+body #accueil #inscription #start {
+  background-color: #4CAF50;
+  color: white;
+  width: 40%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+body #accueil #inscription button:hover {
+  background-color: #45a049;
+}
+body #accueil #inscription button:active {
+  background-color: #3e8e41;
+}
+body #selectChar {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  margin: 0% 5% 2% 5%;
+  height: 60vh;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+body #selectChar #liste1 {
+  background: rgba(0, 0, 0, 0.509);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  width: 230px;
+  gap: 5%;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+body #selectChar #liste1 h2 {
+  color: white;
+  font-size: 22px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+body #selectChar #liste1 img {
+  height: 75px;
+  width: 75px;
+  border-radius: 12px;
+  margin-bottom: 5% ;
+}
+body #selectChar #liste1 img:hover {
+  cursor: pointer;
+  border: 2px solid white;
+}
+body #selectChar #liste2 {
+  background: rgba(0, 0, 0, 0.509);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  width: 230px;
+  gap: 5%;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+body #selectChar #liste2 h2 {
+  color: white;
+  font-size: 22px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+body #selectChar #liste2 img {
+  height: 75px;
+  width: 75px;
+  border-radius: 12px;
+  margin-bottom: 5% ;
+}
+body #selectChar #liste2 img:hover {
+  cursor: pointer;
+  border: 2px solid white;
+}
+body #selectChar #play {
+  background: rgba(0, 0, 0, 0.461);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  color: white;
+  width: 100%;
+  height: 8vh;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 26px;
+  font-style: normal;
+}
+body #selectChar #play:hover {
+  background-color: #45a049;
+}
+body #selectChar #play:active {
+  background-color: #3e8e41;
+}
+body #battle {
+  display: none;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 40vh;
+  background: #2424245b;
+}
+body #battle .player1combat {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  padding: 2%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #000000;
+}
+body #battle .player1combat #lifebar {
+  width: 100%;
+  height: 20px;
+  border: 1px solid white;
+  background: gray;
+}
+body #battle .player1combat #lifebar #status {
+  width: 100%;
+  height: 100%;
+  background: red;
+}
+body #battle .player1combat button {
+  background: rgba(0, 0, 0, 0.461);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  color: white;
+  width: 150px;
+  height: 6vh;
+  padding: 2% 2% 2% 2%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+}
+body #battle .player1combat button:hover {
+  background: green;
+}
+body #battle .player1combat button:active {
+  background: #004100;
+}
+body #battle .player1combat button:disabled {
+  background: #2e2e2e;
+  cursor: wait;
+}
+body #battle .logcombat {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+body #battle .player2combat {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  padding: 2%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #000000;
+}
+body #battle .player2combat #lifebar2 {
+  width: 100%;
+  height: 20px;
+  border: 1px solid white;
+  background: gray;
+}
+body #battle .player2combat #lifebar2 #status2 {
+  width: 100%;
+  height: 100%;
+  background: red;
+}
+body #battle .player2combat button {
+  background: rgba(0, 0, 0, 0.461);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  color: white;
+  width: 150px;
+  height: 6vh;
+  padding: 2% 2% 2% 2%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+}
+body #battle .player2combat button:hover {
+  background: green;
+}
+body #battle .player2combat button:active {
+  background: #004100;
+}
+body #battle .player2combat button:disabled {
+  background: #2e2e2e;
+  cursor: wait;
+}
+body #endBattle {
+  display: none;
+}
+body .End {
+  display: none;
+  /* Par défaut, le modal est caché */
+  position: fixed;
+  /* Positionnement fixe pour couvrir toute la fenêtre */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+body .End-content {
+  background-color: #fefefe;
+  margin: 20% auto;
+  /* Centrer le modal verticalement et horizontalement */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  /* Largeur maximale du modal */
+  font-size: 22px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Style pour le modal */
+.modal {
+  display: flex;
+  /* Par défaut, le modal est caché */
+  position: fixed;
+  /* Positionnement fixe pour couvrir toute la fenêtre */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* Style pour le contenu du modal */
+.modal-content {
+  background-color: #fefefe;
+  margin: 20% auto;
+  /* Centrer le modal verticalement et horizontalement */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  /* Largeur maximale du modal */
+  font-size: 22px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}

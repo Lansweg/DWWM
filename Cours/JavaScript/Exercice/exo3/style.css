@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}
+/* !.rectangle {
+!    width: 200px;
+!    height: 100px;
+!    margin: 5px;
+!}
+!.rectBlue {
+!    width: 200px;
+!    height: 100px;
+!    margin: 5px;
+!    background-color: blue;
+!}
+!.rectWhite {
+!    width: 200px;
+!    height: 100px;
+!    margin: 5px;
+!    background-color: white;
+!}
+!.rectRed {
+!    width: 200px;
+!    height: 100px;
+!    margin: 5px;
+!    background-color: red;
+!} */
+
+  

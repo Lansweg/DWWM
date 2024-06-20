@@ -1,0 +1,157 @@
+{
+  "main": {
+    "id": "33a01173b417c585",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a2a8bbd93483b4d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7463da00b4207492",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "infos/Infos et fonctionnement du site.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a03313096fc850c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f84ceeaa7ece0be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d4af3726fc6f389",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d384d3a6e88812a5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "54489fb83f0b8bd7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "85784e70d47173dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c92cdfe2d97ccc2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "38946d2a84e8bb6d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "infos/Infos et fonctionnement du site.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5deb3eb24dfc86c7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "infos/Infos et fonctionnement du site.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b96a06670e79610b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "44256ccdafb9cb64",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "infos/Infos et fonctionnement du site.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false
+    }
+  },
+  "active": "7463da00b4207492",
+  "lastOpenFiles": [
+    "Pasted image 20240424211451.png",
+    "Pasted image 20240424211414.png",
+    "Pasted image 20240424211407.png",
+    "infos/Infos et fonctionnement du site.md",
+    "infos"
+  ]
+}
