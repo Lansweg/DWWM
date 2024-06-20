@@ -1,20 +1,10 @@
 <?php
-
 require 'fonction.php';
-
 $notes = [];
-
-$notes = [];
-
 do {
     ajouterNote();
     $continuer = readline("Voulez-vous ajouter une autre note ? (o/n) : ");
 } while ($continuer === 'o');
-
-
-
-
-
 do {
     echo "\n1. Ajouter une note\n";
     echo "2. Supprimer un élève\n";
@@ -56,9 +46,6 @@ do {
             system('cls');
             break;
         default:
-
             echo "Option invalide.\n";
     }
 } while ($choix != 8);
-
-

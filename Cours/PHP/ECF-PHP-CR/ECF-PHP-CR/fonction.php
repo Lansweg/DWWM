@@ -1,22 +1,39 @@
 <?php
-
-// Exercice 1
-
+// ==============================
+// =========Exercice 1===========
+// ==============================
 define("PI", 3.14159);
-
-
 function calculerCirconference($rayon) {
-    return 2 * PI * $rayon;
-    
+    return 2 * PI * $rayon;   
 }
 function calculerSurface($rayon) {
     return PI * $rayon * $rayon;
 }
 
 
-// Exercice 2
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ==============================
+// =========Exercice 2===========
+// ==============================
 function calculer($premierChiffre, $deuxiemeChiffre, $operation) {
     if ($operation == "+") {
         return $premierChiffre + $deuxiemeChiffre;
@@ -28,7 +45,6 @@ function calculer($premierChiffre, $deuxiemeChiffre, $operation) {
         return $premierChiffre / $deuxiemeChiffre;
     }
 }
-
 function nbrOk($nbr) {
     do {
         $input = readline($nbr);
@@ -38,12 +54,9 @@ function nbrOk($nbr) {
     } while (!is_numeric($input));
     return $input;
 }
-
-
-
-// Exercice 3
-
-
+// ==============================
+// =========Exercice 3===========
+// ==============================
 function ajouterNote() {
     global $notes;
     do {
@@ -52,7 +65,6 @@ function ajouterNote() {
             echo "Veuillez entrer des lettres uniquement pour le nom.\n";
         }
     } while (!preg_match("/^[a-zA-Z\s]+$/", $nom));
-
     do {
         $inputNote = readline("Entrez la note de l'élève (entre 0 et 20) : ");
         if (!is_numeric($inputNote) || $inputNote < 0 || $inputNote > 20) {
@@ -60,13 +72,11 @@ function ajouterNote() {
         }
     } while (!is_numeric($inputNote) || $inputNote < 0 || $inputNote > 20);
     $note = floatval($inputNote);
-
     if (!isset($notes[$nom])) {
         $notes[$nom] = [];
     }
     $notes[$nom][] = $note;
 }
-
 function supprimerEleve() {
     global $notes;
     do {
@@ -78,8 +88,6 @@ function supprimerEleve() {
     unset($notes[$nom]);
     echo "$nom a été supprimer des liste des notes.\n";
 }
-
-
 function calculerMoyenne() {
     global $notes;
     $total = 0;
@@ -92,15 +100,12 @@ function calculerMoyenne() {
     }
     return $count ? $total / $count : 0;
 }
-
 function plusouMoins() {
     global $notes;
     $maxNote = PHP_FLOAT_MIN;
-
     $minNote = PHP_FLOAT_MAX;
     $eleveMax = '';
     $eleveMin = '';
-
     foreach ($notes as $nom => $noteList) {
         foreach ($noteList as $note) {
             if ($note > $maxNote) {
@@ -113,14 +118,9 @@ function plusouMoins() {
             }
         }
     }
-
     echo "+ $eleveMax avec une note de $maxNote\n";
     echo "- $eleveMin avec une note de $minNote\n";
 }
-
-
-
-
 function afficherElevesAuDessusMoyenne() {
     global $notes;
     $moyenne = calculerMoyenne();
@@ -133,6 +133,9 @@ function afficherElevesAuDessusMoyenne() {
     }
 }
 
+// ====================================================================================================================================================================================
+// ==========================================================================Made By Rémy.C======================================================================================
+// ====================================================================================================================================================================================
 function trierNotes($ordre = 'asc') {
     global $notes;
     $moyennes = [];
@@ -154,18 +157,12 @@ function afficherNotes() {
         echo "$nom : " . implode(', ', $noteList) . "\n";
     }
 }
-
 function clear() {
     system('cls');
 }
-
-
-
-
-
-// Exercice 4
-
-
+// ==============================
+// =========Exercice 4===========
+// ==============================
 
 function jouerManche($scoreJoueur, $scoreOrdinateur) {
     do {
@@ -199,17 +196,15 @@ function jouerManche($scoreJoueur, $scoreOrdinateur) {
             echo "L'ordinateur gagne cette manche!\n";
             $scoreOrdinateur++;
         }
+        
     }
+    
     echo "Voulez-vous jouer une autre manche ? (o/n) : ";
     $continuer = readline();
+    
 } while ($continuer === 'o');
 }
-
-
-
-
 function afficherScores(&$scoreJoueur, &$scoreOrdinateur) {
     echo "Vous avez gagné $scoreJoueur manches.\n";
     echo "L'ordinateur a gagné $scoreOrdinateur manches.\n";
 }
-

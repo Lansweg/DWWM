@@ -1,7 +1,5 @@
 <?php
-
 require 'fonction.php';
-
 do {
     echo "*************************************************\n";
     echo "*\t\tMa calculatrice\t\t\t*\n";

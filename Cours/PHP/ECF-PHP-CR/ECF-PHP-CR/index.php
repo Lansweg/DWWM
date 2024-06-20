@@ -5,9 +5,7 @@ echo "2. Ma calculatrice\n";
 echo "3. Gestion des notes\n";
 echo "4. Jeu chifoumi\n";
 echo "5. Quitter\n";
-
 $choix = intval(readline("Choisissez une option: "));
-
 switch ($choix) {
     case 1:
         require 'Exercice1.php';
