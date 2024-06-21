@@ -36,5 +36,12 @@ class Stagiaire {
     public function trouverMin(): float {
         return min($this->notes);
     }
+
+    public function afficher(){
+        echo $this->getNom() . " " . $this->getPrenom() . "<br>";
+        echo $this->calculerMoyenne() . "<br>";
+        echo $this->trouverMax() . "<br>";
+        echo $this->trouverMin() . "<br>";
+    }
 }
 
