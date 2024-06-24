@@ -1,5 +1,5 @@
 <?php
-require_once "Employe.class.php";
+require "Employe.class.php";
 
 class Manager extends Employe {
     protected $employesGeres = [];
