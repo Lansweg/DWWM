@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+div {
+    width: auto;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+
+
+}
+.lapin {
+    background-color: green;
+}
+.chasseurcalme {
+    background-color: orange;
+}
+.chasseurfurie {
+    padding: 5px;
+    background-color: red;
+}
